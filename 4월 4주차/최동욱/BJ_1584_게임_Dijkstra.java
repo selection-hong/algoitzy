@@ -29,7 +29,7 @@ public class BJ_1584_게임_Dijkstra {
         int m = readInt();
         inputArea(arr, m, -1);        
 
-        System.out.println(bfs(arr, 0, 500));
+        System.out.println(dijkstra(arr, 0, 500));
     }
 
     private static void inputArea(int[][] arr, int n, int w) throws IOException {
@@ -54,7 +54,7 @@ public class BJ_1584_게임_Dijkstra {
         }
     }
 
-    private static int bfs(int[][] arr, int start, int end) {
+    private static int dijkstra(int[][] arr, int start, int end) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.add(new Node(start, start, 0));
         arr[start][start] = -1;
