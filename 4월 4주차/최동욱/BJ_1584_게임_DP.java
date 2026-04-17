@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BJ_1584_°ÔÀÓ_DP {
+public class BJ_1584_ê²Œì„_DP {
     
     static int c;
     

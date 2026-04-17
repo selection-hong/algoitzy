@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BJ_1584_°ÔÀÓ_Dijkstra {
+public class BJ_1584_ê²Œìž„_Dijkstra {
 
     private static class Node implements Comparable<Node> {
         int y, x, t;
