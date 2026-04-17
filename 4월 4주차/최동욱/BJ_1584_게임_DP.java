@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BJ_1584_게임_DP {
+public class BJ_1584_게임_01_BFS {
     
     static int c;
     
