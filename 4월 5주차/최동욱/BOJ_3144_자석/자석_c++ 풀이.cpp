@@ -1,11 +1,3 @@
-/**
- * [BOJ] 3144 - 자석
- * - 제출 날짜: 2026년 4월 22일
- * - 결과: 맞았습니다!!
- * - 메모리: 3976 KB
- * - 시간: 20 ms
- */
-
 #include <iostream>
 
 using namespace std;

@@ -1,11 +1,5 @@
-/**
- * [BOJ] 3144 - 자석
- * - 제출 날짜: 2026년 1월 22일
- * - 결과: 틀렸습니다
- */
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 class Main {
     public static void main(String[] args) throws IOException {
