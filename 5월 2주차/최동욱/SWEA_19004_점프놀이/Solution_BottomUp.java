@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Solution {
+class Solution_BottomUp {
 
     private static class Point {
         int y, x, pre;
