@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution { // SWEA_10507_영어 공부  : 투 포인터
+class Solution { // SWEA_10507_영어 공부  : Two Pointer
 	
 	public static void main(String args[]) throws Exception {
 
