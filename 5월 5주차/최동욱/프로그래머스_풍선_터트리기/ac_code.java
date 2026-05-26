@@ -18,7 +18,7 @@ class Solution {
                 top--;
             } else if(val < left) {
                 answer++;
-                if(val < left) left = val;
+                left = val;
             }   
         }
         
