@@ -1,1 +1,1 @@
-[문제 링크](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
+[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
