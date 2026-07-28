@@ -1,20 +1,32 @@
 #include <iostream>
-#include <vector>
-#include <queue>
 
 
 using namespace std;
+
+int n, m;
+bool area[1000][1000];
+
+
+/* 사용 배열 초기화 */
+void reset_area() {
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
+			area[i][j] = true;
+		}
+	}
+}
 
 
 int dx[4] = { 0, 2, 0, -2 };
 int dy[4] = { 2, 0, -2, 0 };
 
-void four_dir(int x, int y, vector<vector<bool>>& area) {
+/* 4방향 처리 */
+void four_dir(int x, int y) {
 	for (int i = 0; i < 4; i++) {
 		int nx = x + dx[i];
 		int ny = y + dy[i];
 
-		if (nx >= 0 && nx < area.size() && ny >= 0 && ny < area[0].size()) {
+		if (nx >= 0 && nx < n && ny >= 0 && ny < m) {
 			area[nx][ny] = false;
 		}
 	}
@@ -30,19 +42,20 @@ int main() {
 	cin >> tc;
 
 	for (int t = 1; t <= tc; t++) {
-		int n, m;
 		cin >> n >> m;
 
+		// 배열 초기화
+		reset_area();
+
+		// 콩 심기
 		int answer = 0;
-		vector<vector<bool>> area(n, vector<bool>(m, true));
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
-				if (area[i][j]) {
+				if (area[i][j]) { // 콩을 심을 수 있을 경우
 					answer++;
-					four_dir(i, j, area);
+					area[i][j] = false; // 콩 심음 처리
+					four_dir(i, j); // 4방향 처리
 				}
-
-				area[i][j] = false;
 			}
 		}
 
