@@ -1,1 +1,0 @@
-### [프로그래머스 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342?language=python3)
