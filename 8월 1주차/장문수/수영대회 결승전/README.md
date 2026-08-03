@@ -2,7 +2,8 @@
 
 
 
-\[문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWKaG6\_6AGQDFARV) 
+\[문제 링크](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?contestProbId=AWKaG6_6AGQDFARV&solveclubId=AZtDpUmKI73HBIPp&problemBoxTitle=%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+Track+%28%EB%82%9C%EC%9D%B4%EB%8F%84+%EC%83%81%29&problemBoxCnt=0&probBoxId=AZtDpUmKI77HBIPp
+) 
 
 
 
@@ -19,7 +20,3 @@
 
 
 2026년 07월 04일 15:23:58
-
-![](https://velog.velcdn.com/images/moonsyu/post/66ff2ace-7dc0-4b56-9421-fb8f24420e2e/image.png)
-![](https://velog.velcdn.com/images/moonsyu/post/7c7d450c-85cf-4a4b-a8e9-6b35aa64704d/image.png)
-![](https://velog.velcdn.com/images/moonsyu/post/bf54c3ff-156d-4020-b958-56a6bf008e1e/image.png)
