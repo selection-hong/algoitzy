@@ -25,8 +25,6 @@ class Solution {
         for (int i = 0; i <= n; i++) {
             g.add(new ArrayList<>());
         }
-
-        // 양방향 그래프 구성
         for (int[] f : fs) {
             int u = f[0];
             int v = f[1];
@@ -42,7 +40,7 @@ class Solution {
 
         int ans = INF;
 
-        // k: 합승 후 갈라지는 지점
+        // 합승 후 갈라지는 지점
         for (int k = 1; k <= n; k++) {
             ans = Math.min(ans, ds[k] + da[k] + db[k]);
         }
