@@ -1,0 +1,1 @@
+[Maximum Spending After Buying Items](https://leetcode.com/problems/maximum-spending-after-buying-items/description/)
