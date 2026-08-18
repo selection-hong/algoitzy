@@ -11,7 +11,7 @@ class Solution {
         for(int i = 0; i < n; i++) {
             long room = room_number[i];
             
-            while(!map.isEmpty() && map.containsKey(room)) {
+            if(!map.isEmpty() && map.containsKey(room)) {
                 room = find(map, num, room);
             }
             
@@ -19,7 +19,6 @@ class Solution {
             answer[i] = room;
             num[i] = room + 1;
         }
-        
         
         return answer;
     }
