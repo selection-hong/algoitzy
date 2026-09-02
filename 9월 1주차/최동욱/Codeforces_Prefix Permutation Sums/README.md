@@ -1,1 +1,0 @@
-[Codeforces Prefix Permutation Sums](https://codeforces.com/problemset/problem/1851/D)
