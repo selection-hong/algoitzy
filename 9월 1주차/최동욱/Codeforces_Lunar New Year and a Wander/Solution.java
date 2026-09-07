@@ -28,10 +28,12 @@ class Main {
         boolean[] visited = new boolean[n + 1];
         visited[1] = true;
 
+        // Use a priority queue to always expand the smallest numbered node first
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(1);
 
         StringBuilder sb = new StringBuilder();
+        // Perform a modified BFS to get the lexicographically smallest traversal
         while(!pq.isEmpty()) {
             int cur = pq.poll();
             sb.append(cur).append(' ');
