@@ -1,4 +1,4 @@
-package 9월 3주차.최동욱.홍선정;
+package 9월 3주차.홍선정;
 
 class 타겟넘버_Solution {
     //완탐
