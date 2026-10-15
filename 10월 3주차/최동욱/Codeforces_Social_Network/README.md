@@ -123,4 +123,4 @@ William에게는 `d`개의 조건이 있다. `i`번째 조건은 사람 `x_i`와
 
 그림에 나타난 소개 방법만이 정답을 달성할 수 있는 유일한 방법은 아니다.
 
-![alt text](image.png)
+![alt text](./assets/image.png)
