@@ -2,6 +2,7 @@
 
 # E. Sending a Sequence Over the Network
 
+- **난이도:** 1600
 - **시간 제한:** 1초
 - **메모리 제한:** 256MB
 
