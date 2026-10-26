@@ -20,8 +20,11 @@ fun main() = with(System.`in`.bufferedReader()) {
 }
 
 fun dfs(graph: Array<MutableList<Int>>, parent: Int, node: Int): Node {
-    val children = graph[node].mapNotNull {
-        if (it == parent) null else dfs(graph, node, it)
+    val children = mutableListOf<Node>()
+
+    for (next in graph[node]) {
+        if (next == parent) continue
+        children.add(dfs(graph, node, next))
     }
 
     return when (children.size) {
