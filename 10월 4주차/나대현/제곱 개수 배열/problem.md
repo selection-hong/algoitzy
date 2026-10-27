@@ -1,0 +1,1 @@
+[제곱 개수 배열](https://school.programmers.co.kr/learn/courses/30/lessons/468380#fn1)
