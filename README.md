@@ -95,3 +95,9 @@
 
 ## 👥 구성원
 
+나대현 [@growth12](https://github.com/growth12) <br>
+이다희 [@leedaaaaahee](https://github.com/leedaaaaahee) <br>
+성승재 [@jackpod700](https://github.com/jackpod700)<br>
+장문수 [moonsyu](https://github.com/moonsyu)<br>
+최동욱 [@DWinging](https://github.com/DWinging) <br>
+홍선정 [@selection-hong](https://github.com/selection-hong)
